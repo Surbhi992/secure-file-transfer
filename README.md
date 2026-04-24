@@ -73,7 +73,7 @@ python client.py
 ## 📸 Output
 
 ### 🔹 Server Output
-![Server Output](server_screenshot.png)
+![Server Output](server_screenshot.png.png)
 
 
 ## 🔐 Security Concepts Implemented
