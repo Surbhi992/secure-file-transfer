@@ -72,11 +72,9 @@ python client.py
 ---
 
 ## 📸 Output
-
-### Server Output
-<img src="server_screenshot.png.png" width="45%"/> 
-
----
+```
+![Server Output](server_screenshot.png,png)
+```
 
 ## 🔐 Security Concepts Implemented
 
