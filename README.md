@@ -70,11 +70,11 @@ python client.py
 4. File will be uploaded to the server and downloaded back securely
 
 ---
-
 ## 📸 Output
-```
-![Server Output](server_screenshot.png,png)
-```
+
+### 🔹 Server Output
+![Server Output](server_screenshot.png)
+
 
 ## 🔐 Security Concepts Implemented
 
