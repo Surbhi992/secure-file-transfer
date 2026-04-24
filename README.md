@@ -74,7 +74,7 @@ python client.py
 ## 📸 Output
 
 ### Server Output
-![Server](Screenshot 2026-04-25 002025.png)
+<img src="server_screenshot.png.png" width="45%"/> 
 
 ---
 
