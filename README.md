@@ -2,17 +2,18 @@
 
 ## 📌 Overview
 
-This project implements a secure file transfer system that allows users to upload and download files between a client and server using encryption. The goal is to ensure data confidentiality during transmission and safe storage on the server.
+This project is a secure file transfer system developed using Python. It enables safe file upload and download between a client and server by applying encryption techniques to ensure data confidentiality during transmission and storage.
 
 ---
 
 ## 🚀 Features
 
-* AES-based file encryption and decryption
-* Secure file upload and download
-* Client-server architecture using Flask
-* Encrypted file storage on server
-* Lightweight and easy-to-run project
+* 🔒 AES-based encryption and decryption
+* 📤 Secure file upload to server
+* 📥 Secure file download from server
+* 🖥️ Client-server architecture using Flask
+* 📁 Encrypted file storage on server
+* ⚡ Lightweight and easy to run
 
 ---
 
@@ -37,19 +38,24 @@ secure-file-transfer/
 ├── client/
 │   ├── client.py
 
+├── server_screenshot.png
+├── client_screenshot.png
+
 └── README.md
 
 ---
 
-## ⚙️ How to Run
+## ⚙️ How to Run the Project
 
-### 1. Start Server
+### 🔹 Step 1: Start Server
 
 cd server
 pip install -r requirements.txt
 python server.py
 
-### 2. Run Client
+---
+
+### 🔹 Step 2: Run Client
 
 cd client
 python client.py
@@ -61,13 +67,20 @@ python client.py
 1. Create a file named `test.txt` inside the client folder
 2. Add any text inside the file
 3. Run the client script
-4. File will be uploaded to server and downloaded back securely
+4. File will be uploaded to the server and downloaded back securely
 
 ---
 
-## 🔐 Security Concepts
+## 📸 Output
 
-* AES Encryption
+### Server Output
+![Server](server_screenshot.png)
+
+---
+
+## 🔐 Security Concepts Implemented
+
+* AES Encryption (ensures confidentiality)
 * Secure file handling
 * Client-server communication
 
@@ -81,12 +94,12 @@ python client.py
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Future Enhancements
 
-* AES-CBC encryption
-* HMAC for integrity checking
-* User authentication
-* Web-based interface
+* Implement AES-CBC encryption mode
+* Add HMAC for data integrity
+* Introduce user authentication
+* Develop web-based interface
 
 ---
 
@@ -98,4 +111,5 @@ Cyber Security Internship Project
 
 ## 📜 License
 
-For educational purposes only.
+This project is for educational purposes only.
+
